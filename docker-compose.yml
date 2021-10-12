@@ -6,4 +6,4 @@ services:
     ports:
       - "3002:80"
     volumes:
-      - ../../../../../../../etc:/usr/share/nginx/html
+      - ./static:/usr/share/nginx/html
