@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   webapp:
-    image: 2.4.5-windowsservercore-1809
+    image: caddy:2.4.5-windowsservercore-1809
     restart: always
     ports:
       - "3002:80"
