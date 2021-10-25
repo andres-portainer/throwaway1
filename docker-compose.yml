@@ -1,9 +1,7 @@
 version: '3.1'
 services:
   webapp:
-    image: nginx:alpine
+    image: 2.4.5-windowsservercore-1809
     restart: always
     ports:
       - "3002:80"
-    volumes:
-      - ./static:/usr/share/nginx/html
